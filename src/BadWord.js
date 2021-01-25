@@ -8,7 +8,7 @@ class BadWord extends ChatTriggeredFeature {
 
   static punishmentTypes = ['none','ban','kick','mute','softban','strike','dm'];
 
-  static defaultResponse = 'Your message includes words/phrases that are not allowed here!';
+  static defaultResponse = 'Hey! You said bad stuff.';
 
   static tableName = 'badWords';
 
